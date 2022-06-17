@@ -1,0 +1,13 @@
+#!/bin/sh
+
+export terminal='kitty'
+export web_browser='brave'
+
+
+# This is more scalable, bitches
+source $HOME/.config/river/colors.sh &
+source $HOME/.config/river/keyboard.sh &
+source $HOME/.config/river/keys.sh &
+source $HOME/.config/river/mouse.sh &
+source $HOME/.config/river/processes.sh &
+source $HOME/.config/river/workspaces.sh &
